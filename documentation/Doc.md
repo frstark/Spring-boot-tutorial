@@ -6,7 +6,7 @@
 ## Table of Contents
 1. [Creating Simple API](#creating-simple-api)
 2. [Creating Springboard Components](#creating-springboard-components)
-3. [Testing](#testing)
+3. [CRUD Operations](#crud_operations)
 
 
 
@@ -54,7 +54,47 @@ Department Repository
 Resultat im Browser:
 ![](.Doc_images/fd5635fd.png)
 
-## Testing <a name="testing"></a>
+![](.Doc_images/8ffd3786.png)
+
+## CRUD Operations <a name="crud_operations"></a>
+
+### GetMapping
+
+Controller
+![](.Doc_images/181028d2.png)
+Service
+![](.Doc_images/44582089.png)
+Service Implementation
+![](.Doc_images/506c6921.png)
+
+### Fetching Data by ID
+
+Controller:
+![](.Doc_images/getbyID-Controller.png)
+Service:
+![](.Doc_images/servive-byID.png)
+Service Implementation:
+![](.Doc_images/5523ff01.png)
+
+### Delete by ID:
+
+Controller:
+![](.Doc_images/0af950ae.png)
+Service:
+![](.Doc_images/d724dac2.png)
+Service Implementation:
+![](.Doc_images/a59c2509.png)
+
+### Update:
+
+Controller:
+![](.Doc_images/8d5b1c60.png)
+Service:
+![](.Doc_images/c5548129.png)
+Service Implementation:
+![](.Doc_images/354b1c34.png)
+
+
 
 
 
