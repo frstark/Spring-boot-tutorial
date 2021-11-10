@@ -11,6 +11,7 @@
 5. [Exception Handling](#exception_handling)
 6. [Change to MySql](#change_database)
 7. [TESTING](#testing)
+8. [Miscellaneous](#miscellaneous)
 
 
 
@@ -148,6 +149,8 @@ No new Data created:
 
 ### Controller Layer 
 Mock =  in der Softwareentwicklung ein Programmteil, der zur Durchführung von Modultests als Platzhalter für echte Objekte verwendet wird.
+<br>
+https://t2informatik.de/wissen-kompakt/mock-objekt/
 ![](.Doc_images/f02b6f3a.png)
 
 save method:
@@ -157,5 +160,28 @@ fetchById:
 ![](.Doc_images/01ffdf74.png)
 
 
+## MISC <a name="miscellaneous"></a>
 
+### Adding Config file
+![](.Doc_images/063f495d.png)
+
+![](.Doc_images/1ae34c14.png)
+![](.Doc_images/d95ce1ed.png)
+
+### Adding application.yml
+
+Why .yml file?:
+- more relatable Format
+- removes redundant references
+
+![](.Doc_images/2dd45d6c.png)
+![](.Doc_images/21519318.png)
+
+### Springboot Profiles
+Adding different Profiles for our different Servers
+
+### Springboot Actuator
+
+Monitor Activitys 
+![](.Doc_images/bc452182.png)
 
