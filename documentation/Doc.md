@@ -7,6 +7,10 @@
 1. [Creating Simple API](#creating-simple-api)
 2. [Creating Springboard Components](#creating-springboard-components)
 3. [CRUD Operations](#crud_operations)
+4. [Add Loggers](#add_loggers)
+5. [Exception Handling](#exception_handling)
+6. [Change to MySql](#change_database)
+7. [TESTING](#testing)
 
 
 
@@ -94,6 +98,63 @@ Service:
 Service Implementation:
 ![](.Doc_images/354b1c34.png)
 
+## Add Loggers <a name="add_logger"></a>
+
+![](.Doc_images/ad5f8129.png)
+![](.Doc_images/10550e9f.png)
+![](.Doc_images/8ef4b086.png)
+
+## Exception Handling <a name="exception_handling"></a>
+
+![](.Doc_images/dc93b0b4.png)
+
+Service Implementation:
+![](.Doc_images/0dc472b0.png)
+Controller:
+![](.Doc_images/0aee16a9.png)
+
+
+![](.Doc_images/bd4b5e5b.png)
+![](.Doc_images/5415d304.png)
+
+
+## Change to MySql <a name="change_database"></a>
+
+![](.Doc_images/c99c1b01.png)
+![](.Doc_images/4d85a4f7.png)
+![](.Doc_images/c1cb6322.png)
+
+## TESTING <a name="testing"></a>
+
+### Service Layer Testing
+
+![](.Doc_images/02100f9e.png)
+![](.Doc_images/179ad59d.png)
+![](.Doc_images/bb50d942.png)
+
+![](.Doc_images/ca91f810.png)
+![](.Doc_images/86bf352b.png)
+![](.Doc_images/74bfcf61.png)
+![](.Doc_images/699fddcf.png)
+
+### Repository Layer 
+Data will be flushed out.
+![](.Doc_images/860aa6e7.png)
+
+![](.Doc_images/ee34dc68.png)
+
+No new Data created:
+![](.Doc_images/00a7e488.png)
+
+### Controller Layer 
+Mock =  in der Softwareentwicklung ein Programmteil, der zur Durchführung von Modultests als Platzhalter für echte Objekte verwendet wird.
+![](.Doc_images/f02b6f3a.png)
+
+save method:
+![](.Doc_images/726206a4.png)
+
+fetchById:
+![](.Doc_images/01ffdf74.png)
 
 
 
